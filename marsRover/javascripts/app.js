@@ -1,6 +1,6 @@
 // Rover Object Goes Here
 // ======================
-let rover1 = {
+let rover = {
   direction: "N",
   x: 0,
   y: 0,
@@ -23,30 +23,11 @@ let rover1 = {
   }
 };
 
-let rover2 = {
-  direction: "N",
-  x: 0,
-  y: 0,
-  travelLog: [],
-  moveNumber: 0,
-  keepTrack: function() {
-    this.moveNumber++;
-    currentPosition =
-      " \n" +
-      this.moveNumber +
-      ". Position: [" +
-      this.x +
-      ", " +
-      this.y +
-      "]. Facing: " +
-      this.direction +
-      " ";
-    this.travelLog.push(currentPosition);
-    console.log("History log: " + this.travelLog);
-  }
-};
-
-console.log("Mars Rover. ");
+console.log(
+  "Mars Rover.\nAvailable commands: turnLeft() [l], turnRight() [r], moveForward() [f], moveBackward() [b].\nAvailable rovers: rover."
+);
+console.log('To execute multiple commands: controller("string of commands")');
+console.warn("Obstacles and collision not supported");
 const mars = [
   [0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
   [0, "meteor", 0, 0, 0, 0, 0, 0, 0, 0],
