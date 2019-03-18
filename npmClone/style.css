@@ -96,6 +96,7 @@ nav a {
   padding: 40px;
   width: 500px;
   position: relative;
+  margin-left: 30%;
 }
 
 /*Collaboration section */
@@ -152,6 +153,7 @@ nav a {
 #about-text {
   position: absolute;
   width: 400px;
+  margin-left: 30%;
 }
 
 /*Final info section */
@@ -161,6 +163,7 @@ nav a {
   font-size: 12px;
   color: gray;
   padding: 40px;
+  justify-content: center;
 }
 
 #finalinfo {
