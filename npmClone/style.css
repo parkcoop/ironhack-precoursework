@@ -8,6 +8,7 @@ body {
 
 header {
   background-image: url("images/city-scape.svg");
+  background-origin: inherit;
   background-color: rgb(32, 101, 136);
   color: white;
   height: 400px;
@@ -96,7 +97,7 @@ nav a {
   padding: 40px;
   width: 500px;
   position: relative;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 /*Collaboration section */
@@ -153,7 +154,7 @@ nav a {
 #about-text {
   position: absolute;
   width: 400px;
-  margin-left: 30%;
+  margin-left: 15%;
 }
 
 /*Final info section */
