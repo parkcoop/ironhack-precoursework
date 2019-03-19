@@ -67,7 +67,9 @@ let obstacles = [
 console.log(
   "Mars Rover.\nAvailable commands: turnLeft() [l], turnRight() [r], moveForward() [f], moveBackward() [b].\nAvailable rovers: rover."
 );
-console.log('To execute multiple commands: controller("string of commands")');
+console.log(
+  'To execute multiple commands: controller(rover, "string of commands")'
+);
 console.warn("Multiple rovers not yet supported");
 
 // ======================
